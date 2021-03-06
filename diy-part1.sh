@@ -32,12 +32,12 @@ rm -rf ./package/base-files/files/etc/banne && cd .. && cp -f ./banner openwrt/p
 
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
-git clone https://github.com/MrH723/openwrt-packages.git package/lean/
+git clone https://github.com/281677160/openwrt-package.git package/lean/
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy #rosy-主题
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
 git clone https://github.com/sypopo/luci-theme-argon-mc.git package/lean/luci-theme-argon-mc  #argon-mc-主题
-git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
-git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
+#git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
+#git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
 git clone https://github.com/tty228/luci-app-serverchan.git https://github.com/MrH723/openwrt-packagesluci-app-serverchan  #微信推送
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/fw876/helloworld.git package/lean/helloword
